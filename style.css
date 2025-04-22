@@ -280,7 +280,7 @@ h4 {
 }
 
 .menu_items_grid {
-    margin-top: 15px;
+  margin-top: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -309,88 +309,85 @@ h4 {
 }
 
 .menu_header_1 p:hover {
-    background: #eee1c6;
+  background: #eee1c6;
 }
-
-
-
 
 /* Store times section */
 .store_times {
-    background-color: white;
-    position: relative;
+  background-color: white;
+  position: relative;
 }
 .store_image {
-    width: 50%;
-    height: 90vh;
-    margin-left: auto;
-    margin-right: 0;
-    margin-top: 1.2%;
-    padding-right: 35px;
-
+  width: 50%;
+  height: 90vh;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 1.2%;
+  padding-right: 35px;
 }
 
 .store_image img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 .store_timing {
-    position: absolute;
-    top: 5%;
-    left: 6%;
+  position: absolute;
+  top: 5%;
+  left: 6%;
 }
 .store_time {
-    display: inline-block;
-    border: 2px solid black;
-
+  display: inline-block;
+  border: 2px solid black;
 }
-.store_weekday, .store_weekend{
-    display: inline-block;
-    padding: 18px;
-    border-bottom: 1px solid black;
+.store_weekday,
+.store_weekend {
+  display: inline-block;
+  padding: 18px;
+  border-bottom: 1px solid black;
 }
-.store_weekday p, .store_weekend p {
-    font-size: 1.4em;
+.store_weekday p,
+.store_weekend p {
+  font-size: 1.4em;
 }
-.store_weekday h3, .store_weekend h3 {
-    font-size: 2.7em;
-    margin: 10px 0;
+.store_weekday h3,
+.store_weekend h3 {
+  font-size: 2.7em;
+  margin: 10px 0;
 }
-.store_weekday h4, .store_weekend h4 {
-    font-size: 1.8em;
+.store_weekday h4,
+.store_weekend h4 {
+  font-size: 1.8em;
 }
 .store_weekday {
-    padding-right: 19px;
+  padding-right: 19px;
 }
 .store_location {
-    width: 31%;
-    position: relative;
-    top: 13vh;
-
+  width: 31%;
+  position: relative;
+  top: 13vh;
 }
 .store_location h2 {
-    font-size: 2.5em;
-    margin: 15px 0;
+  font-size: 2.5em;
+  margin: 15px 0;
 }
 .store_location p {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 .btn {
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: Arial;
-    color: orange;
-    font-size: 21px;
-    background: #EEE1C6;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    margin-top: 15px;
-  }
-#view_all {
-    margin-left: 15px;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: orange;
+  font-size: 21px;
+  background: #eee1c6;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 15px;
 }
-
+#view_all {
+  margin-left: 15px;
+}
 
 /* Chef section  */
 
@@ -402,37 +399,135 @@ h4 {
   grid-template-areas: "chef1 chef2";
 }
 .chef_header_1 p {
-    display: inline-block;
-    margin-top: 1%;
-    margin-left: 15%;
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-    font-family: Arial;
-    color: orange;
-    font-size: 30px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    border: 2px solid #eee1c6;
+  display: inline-block;
+  margin-top: 1%;
+  margin-left: 15%;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: orange;
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: 2px solid #eee1c6;
+}
+.chef_header_1 h2 {
+  font-size: 2.9em;
+  padding: 10px 15%;
+  width: 60%;
+  font-weight: 100;
+}
+.chef_header_2 {
+  font-size: 1.8em;
+  padding: 15px 35px;
+  position: absolute;
+  bottom: 15%;
+  color: black;
+  width: 70%;
+  grid-area: chef2;
+}
+.chef_header_2 p {
+  width: 60%;
+}
+
+.chef_cook_grid {
+  margin-top: 15px;
+  height: 55vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-area: "shef1 shef2 shef3";
+  justify-items: center;
+  padding-bottom: 40px;
+  background-color: #eee1c6;
+  padding: 55px 25px;
+}
+.chef_no {
+    border: 1px solid black;
+    padding: 3% 4%;
+    justify-items: center;
+    position: relative;
   }
-  .chef_header_1 h2 {
-    font-size: 2.9em;
-    padding: 10px 15%;
-    width: 60%;
-    font-weight: 100;
+  .chef_no img {
+    width: 97%;
+    height: 98%;
   }
-  .chef_header_2 {
-    font-size: 1.8em;
-    padding: 15px 35px;
-    position: absolute;
-    bottom: 15%;
-    color: black;
+  
+
+
+
+  /* Ingredients section */
+  .ingredients {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: "l_ingredients m_ingredients r_ingredients";
+    height: 80vh;
+    overflow: hidden;
+    
+  }
+  .ingredients_left {
+    padding: 2%;
+    position: relative;
+  }
+  .ingredients_body {
+    position: relative;
+  }
+  .ingredients_text {
+    font-size: 3.2em;
     width: 70%;
-    grid-area: chef2;
+    padding: 4%;
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    left: 12%;
   }
-  .chef_header_2 p {
-    width: 60%;
+  .ingredients_right {
+    padding: 2%;
+    position: relative;
   }
+  .ingredients_container {
+    width: 95%;
+    font-size: 2em;
+    text-align: center;
+    position: absolute;
+    top: -18%;
+    left: 2%;
+  }
+  .ingredient_details img {
+    padding-top: 5%;
+    width: 100%;
+    height: 22vh;
+  }
+  .ingredients_text p {
+    font-size: 1.5rem;
+  }
+  .ingredient_button {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
