@@ -214,22 +214,27 @@
     </div>
 
     <!-- Store times   -->
-    <div store_times>
+    <div class="store_times">
       <div class="store_image">
         <img src="images/about/plate3.jpg" alt="" />
         <div class="store_smaller_images"></div>
       </div>
       <div class="store_timing">
-        <div class="store_weekday">
-          <p>Weekdays (Monday until Friday)</p>
-          <h3>9:30 - 22:00</h3>
-          <h4>(20:00 Last Order)</h4>
+        <div class="store_time">
+            <div class="store_weekday">
+                <p>Weekdays (Monday until Friday)</p>
+                <h3>9:30 - 22:00</h3>
+                <h4>(20:00 Last Order)</h4>
+              </div>
+              <div class="weekend">
+                  <div class="store_weekend">
+                      <p>Weekends (Saturday and Sunday)</p>
+                      <h3>10:30 - 23:00</h3>
+                      <h4>(21:00 Last Order)</h4>
+                    </div>
+              </div>
         </div>
-        <div class="store_weekend">
-          <p>Weekends (Saturday and Sunday)</p>
-          <h3>10:30 - 23:00</h3>
-          <h4>(21:00 Last Order)</h4>
-        </div>
+        
         <div class="store_location">
           <h2>SATE & SEAFOOD SENAYAN BATAVIA PIK</h2>
           <p>
@@ -239,7 +244,7 @@
           </p>
           <div class="location_button">
             <button class="btn">VIEW ON MAP</button>
-            <button class="btn">VIEW ALL</button>
+            <button class="btn" id="view_all">VIEW ALL</button>
           </div>
         </div>
       </div>
@@ -248,12 +253,12 @@
     <!-- Our Chefs -->
 
     <div class="chef_section">
-      <div class="menu_header">
-        <div class="menu_header_1">
+      <div class="chef_header">
+        <div class="chef_header_1">
           <p>OUR CHEF</p>
           <h2>We have Professional and excellent chefs</h2>
         </div>
-        <div class="menu_header_2">
+        <div class="chef_header_2">
           <p>
             We always provide the best service, by having the best cheds in the
             field, serving high quality food

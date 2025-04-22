@@ -286,6 +286,7 @@ h4 {
   grid-template-rows: auto;
   grid-area: "men1 men2 men3" "men4 men5 men6";
   justify-items: center;
+  padding-bottom: 40px;
 }
 .menu_item {
   border: 1px solid black;
@@ -310,6 +311,129 @@ h4 {
 .menu_header_1 p:hover {
     background: #eee1c6;
 }
+
+
+
+
+/* Store times section */
+.store_times {
+    background-color: white;
+    position: relative;
+}
+.store_image {
+    width: 50%;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 1.2%;
+    padding-right: 35px;
+
+}
+
+.store_image img {
+    height: 100%;
+    width: 100%;
+}
+.store_timing {
+    position: absolute;
+    top: 5%;
+    left: 6%;
+}
+.store_time {
+    display: inline-block;
+    border: 2px solid black;
+
+}
+.store_weekday, .store_weekend{
+    display: inline-block;
+    padding: 18px;
+    border-bottom: 1px solid black;
+}
+.store_weekday p, .store_weekend p {
+    font-size: 1.4em;
+}
+.store_weekday h3, .store_weekend h3 {
+    font-size: 2.7em;
+    margin: 10px 0;
+}
+.store_weekday h4, .store_weekend h4 {
+    font-size: 1.8em;
+}
+.store_weekday {
+    padding-right: 19px;
+}
+.store_location {
+    width: 31%;
+    position: relative;
+    top: 13vh;
+
+}
+.store_location h2 {
+    font-size: 2.5em;
+    margin: 15px 0;
+}
+.store_location p {
+    font-size: 1.5em;
+}
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: orange;
+    font-size: 21px;
+    background: #EEE1C6;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 15px;
+  }
+#view_all {
+    margin-left: 15px;
+}
+
+
+/* Chef section  */
+
+.chef_header {
+  position: relative;
+  display: grid;
+  height: 22vh;
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-areas: "chef1 chef2";
+}
+.chef_header_1 p {
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 15%;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: orange;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: 2px solid #eee1c6;
+  }
+  .chef_header_1 h2 {
+    font-size: 2.9em;
+    padding: 10px 15%;
+    width: 60%;
+    font-weight: 100;
+  }
+  .chef_header_2 {
+    font-size: 1.8em;
+    padding: 15px 35px;
+    position: absolute;
+    bottom: 15%;
+    color: black;
+    width: 70%;
+    grid-area: chef2;
+  }
+  .chef_header_2 p {
+    width: 60%;
+  }
+
 
 
 
