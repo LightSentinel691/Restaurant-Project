@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+}
+.background_hero {
+  /* background: black; */
+}
+
+[src="images/hero.jpg"] {
+  width: 100%;
+  height: 1000px;
+  opacity: 0.8;
+}
+[src="images/7513626.jpg"] {
+  width: 50%;
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+.nav_bar {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1fr;
+  grid-template-areas: "links logo contact";
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #2c3539;
+}
+.nav_bar ul li {
+  background-color: lightslategray;
+  list-style: none;
+  display: inline-block;
+  grid-area: links;
+  padding: 18px;
+  font-size: 1.3em;
+  color: white;
+}
+.nav_bar ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav_logo {
+  height: 100px;
+}
+.nav_contact {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+[src="images/earth-africa-solid2.svg"] {
+  scale: 0.8;
+  display: inline-block;
+  width: 50px;
+}
+.nav_contact p {
+  display: inline-block;
+  position: relative;
+  top: -20%;
+  color: white;
+}
+
+.nav_contact button {
+  position: relative;
+  top: -20%;
+}
+.header_booking {
+  width: 28%;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 62%;
+  margin-right: 10px;
+  padding: 10px;
+}
+h4 {
+  font-size: 2em;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+.header_booking p {
+  font-size: 1.3em;
+  padding-left: 18px;
+}
+.header_booking_container {
+  border: 1px solid black;
+  margin: 12px;
+}
+.seats_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "date time";
+}
+.seats_section label {
+  display: inline-block;
+  width: 45%;
+}
+.seats_section1 {
+  grid-area: date;
+}
+.seats_section2 {
+  grid-area: time;
+}
+[type="date"] {
+  width: 100%;
+}
+[type="time"] {
+  width: 100%;
+}
+#reserve {
+  width: 85%;
+}
+.reserve_button {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+/* Restaurant description section */
+.Restaurant_description {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  grid-template-areas: "desc1 desc2 desc3";
+}
+.Restaurant_description1 {
+  grid-area: desc1;
+  font-size: 1.8em;
+  text-align: center;
+  padding: 10% 17%;
+}
+.Restaurant_description2 {
+  grid-area: desc2;
+  font-size: 1.5em;
+  padding: 4%;
+}
+.Restaurant_description3 {
+  grid-area: desc3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Restaurant_description3 button {
+  font-size: 1.6em;
+  padding: 3%;
+}
+
+/* About Hotel section */
+.about_section {
+  position: relative;
+}
+.about_hotel {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+  height: 85vh;
+}
+
+[src="images/about/about.jpg"] {
+  width: 98%;
+  height: 100%;
+}
+.about_hotel1 {
+  position: absolute;
+  top: 3%;
+  left: 5%;
+  background-color: yellow;
+  width: 95%;
+  height: 95%;
+  background-color: white;
+  grid-area: about1;
+}
+.about_hotel_logo {
+  width: 100px;
+  height: 50px;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.about_hotel_logo img {
+  width: 40px;
+  scale: 1.3;
+  position: absolute;
+}
+.about_hotel_text {
+  font-size: 1.2em;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.about_hotel_image {
+  margin: 5px;
+  height: 67%;
+  position: relative;
+  overflow: hidden;
+}
+.about_hotel_image img {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-width: 98%;
+  min-height: 100%;
+}
+.about_grid {
+  /* box-sizing: border-box; */
+  position: absolute;
+  top: 4%;
+  width: 90%;
+  height: 85%;
+  left: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "about1 about2 about3";
+}
+.about_hotel2 {
+  position: absolute;
+  top: 6%;
+  left: 5%;
+  background-color: yellow;
+  width: 95%;
+  height: 95%;
+  background-color: white;
+  grid-area: about2;
+}
+
+.about_hotel3 {
+  position: absolute;
+  top: 9%;
+  left: 4.5%;
+  background-color: yellow;
+  width: 95%;
+  height: 95%;
+  background-color: white;
+  grid-area: about3;
+}
+.about_hotel2 .about_hotel_text h4 {
+  font-size: 1.5em;
+}
+
+/* Menu Section area */
+
+.Menu_section {
+  background-color: beige;
+  color: orange;
+}
+.menu_header {
+  position: relative;
+  display: grid;
+  height: 22vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "menu1 menu2";
+}
+.menu_header_1 p {
+  display: inline-block;
+  margin-top: 1%;
+  margin-left: 15%;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: orange;
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: 2px solid #eee1c6;
+}
+.menu_header_1 h2 {
+  font-size: 4em;
+  padding: 10px 15%;
+  width: 50%;
+  font-weight: 100;
+}
+.menu_header_2 select {
+  font-size: 2em;
+  padding: 15px 35px;
+  position: absolute;
+  right: 10%;
+  bottom: 33%;
+  color: orange;
+}
+
+.menu_items_grid {
+    margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-area: "men1 men2 men3" "men4 men5 men6";
+  justify-items: center;
+}
+.menu_item {
+  border: 1px solid black;
+  padding: 7% 6%;
+  justify-items: center;
+  position: relative;
+}
+.menu_item img {
+  width: 95%;
+}
+.menu_description {
+  background-color: white;
+  font-size: 1.5em;
+  position: absolute;
+  bottom: 5%;
+  left: 25%;
+  padding: 5px 10px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.menu_header_1 p:hover {
+    background: #eee1c6;
+}
+
+
+
+
+
+
+.no_display {
+  display: hidden;
+}
