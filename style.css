@@ -854,50 +854,171 @@ h4 {
 
 
 /* smaller screen display  */
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1200px) {
   .Restaurant_description {
     margin: 3% 0;
-    grid-template-columns: 100%;
+    grid-template-columns: 70%;
+    justify-content: center;
     grid-template-areas: "desc1" 
                           "desc2" 
                           "desc3";
+    
+  }
+  .nav_bar {
+    display: none;
   }
   .Restaurant_description1 {
     padding: 4%;
   }
   .Restaurant_description2 {
     text-align: center;
+    padding-bottom: 10%;
+  }
+  .Restaurant_description3 {
+    padding: 3% 0 7%;
   }
 
+  .header_booking {
+    position: relative;
+    width: auto;
+    text-align: center;
+  }
+
+
+
   .about_grid {
-    grid-template-columns: 100%;
+    height: auto;
+    position: relative; 
+    left: auto;
+    right: auto;
+    grid-template-columns: 84%;
     grid-template-areas: "about1" 
                           "about2" 
                           "about3";
+    justify-content: center;
+    padding-bottom: 10%;
+    width: auto;
+    margin: auto;
+    /* place-items: center; */
+
+
+    
   }
   .about_hotel {
+    position: relative;
     height: auto;
   } 
 
   .about_section {
     height: auto;
+    width: auto;
   }
   .about_hotel1 {
+    position: relative;
+    left: auto;
+    right: auto;
     grid-area: about1;
     height: auto;
+    margin: auto;
+    
   }
   .about_hotel2 {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: 4%;
     grid-area: about2;
     height: auto;
+    
   }
   .about_hotel3 {
+    position: relative;
+    left: auto;
+    right: auto;
+    display: block;
     grid-area: about3;
     height: auto;
   }
+  .about_hotel_text {
+    height: auto;
+  }
+  .about_hotel_image {
+    height: fit-content;
+  }
+  .menu_header {
+    grid-template-columns: 100%;
+    position: relative;
+    height: auto;
+    grid-template-areas: "menu1" 
+                        "menu2";
+    margin-bottom: 6%;
+  }
+  .menu_header_1 {
+    display: inline-block;
+    justify-items: center;
+  }
+  .menu_header_1 h2 {
+    width: 70%;
+    text-align: center;
+  }
+  .menu_header_2 {
+    text-align: center;
+    margin: 1%;
+  }
+  .menu_header_2 select {
+    font-size: 1.5rem;
+    position: relative;
+    right: auto;
+    left: auto;
+    top: 2%;
+    width: auto;
+    padding: 2%;
+    
+  }
 
+  .menu_items_grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-area: "men1 men2 men3" "men4 men5 men6";
+    justify-items: center;
+    padding-bottom: 40px;
+  }
+  .menu_description {
+    left: 11%;
+    right: 14%;
+    font-size: 1.3rem;
+  }
 
-
-
-
+  .store_image {
+    width: 100%;
+    height: 75vh;
+  }
+  .store_timing {
+    position: relative;
+    margin-top: 14%;
+    left: 2%;
+    margin-bottom: 3%;
+  }
+  .store_location {
+    position: absolute;
+    top: 1%;
+    left: auto;
+    right: 1%;
+    width: 51%;
+  }
+  .store_time {
+    width: 45%;
+  }
+  .logo_flower img {
+    clip-path: inset(50% 0 0 0);
+  }
+  .logo_flower img:nth-child(2) {
+    clip-path: inset(0 0 50% 0);
+  }
+  .logo_flower {
+    left: 35%;
+    right: 38%;
+    top: 54.5%;
+  }
 
 }
