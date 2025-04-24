@@ -27,7 +27,7 @@
           <div class="nav_contact">
             <img src="images/earth-africa-solid2.svg" alt="" />
             <p>EN</p>
-            <button>CONTACT US</button>
+            <button id="nav_btn">CONTACT US</button>
           </div>
         </div>
         <div class="header_images">
@@ -36,27 +36,33 @@
           <div></div>
         </div>
         <div class="header_booking">
-          <h4>Booking a table</h4>
+          <h4>Booking a table</h4><hr>
           <p><strong>Restaurant</strong></p>
-          <div class="header_booking_container">
+          <div class="header_booking_container contain">
             <p><strong>SATE & SEAFOOD SENAYAN BATAVIA PIK</strong></p>
             <p>Upperhill, Nairobi</p>
           </div>
-          <p>Total seat</p>
+          <p><b>Total seat</b></p>
           <div class="header_booking_container">
-            <p><strong>2 seats</strong></p>
+            <select name="cars" id="cars">
+              <option value="two">2 seats</option>
+              <option value="three">3 seats</option>
+              <option value="four">4 seats</option>
+              <option value="five">5 seats</option>
+              <option value="eight">Family (8 seats)</option>
+            </select>
           </div>
           <div class="seats_section">
             <div class="seats_section1">
               <label for="birthday">Birthday:</label>
               <div class="header_booking_container">
-                <input type="date" id="birthday" name="birthday" />
+                <input type="date" id="birthday" name="birthday" placeholder="MM/DD/YYYY" class="paddin"/>
               </div>
             </div>
             <div class="seats_section2">
               <label for="appt">Time:</label>
               <div class="header_booking_container">
-                <input type="time" id="appt" name="appt" />
+                <input type="time" id="appt" name="appt" class="paddin" />
               </div>
             </div>
           </div>
