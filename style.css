@@ -1006,6 +1006,9 @@ h4 {
     right: 1%;
     width: 51%;
   }
+  .store_times {
+    margin-bottom: 7%;
+  }
   .store_time {
     width: 45%;
   }
@@ -1045,6 +1048,7 @@ h4 {
   }
   .chef_header_1 p {
     margin-left: 0;
+    margin-bottom: 2%;
   }
 
   .chef_header_1 h2 {
@@ -1105,6 +1109,11 @@ h4 {
     width: 100%;
     text-align: center;
     left: 0;
+  }
+
+  .ingredients_text h3 {
+    font-size: 2.4rem;
+    margin-bottom: 2%;
   }
   .ingredients_container {
     width: 100%;
