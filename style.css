@@ -1018,7 +1018,8 @@ h4 {
   .logo_flower {
     left: 35%;
     right: 38%;
-    top: 54.5%;
+    top: 45%;
   }
 
+  /* /Error on logo store times below 750px   */
 }
