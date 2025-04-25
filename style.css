@@ -984,7 +984,7 @@ h4 {
     padding-bottom: 40px;
   }
   .menu_description {
-    left: 11%;
+    left: 12.5%;
     right: 14%;
     font-size: 1.3rem;
   }
@@ -1020,6 +1020,114 @@ h4 {
     right: 38%;
     top: 45%;
   }
+
+
+
+
+
+
+
+
+
+
+
+  .chef_header {
+    grid-template-columns: 100%;
+    grid-template-areas: "chef1" 
+                        "chef2";
+    text-align: center;
+    height: auto;
+  
+  }
+  .chef_header_1 p, .chef_header_1 h2 {
+    display: inline-block;
+    
+  }
+  .chef_header_1 p {
+    margin-left: 0;
+  }
+
+  .chef_header_1 h2 {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .chef_header_2 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .chef_header_2 p {
+    width: 100%;
+  }
+
+  .chef_cook_grid {
+    position: relative;
+    margin-top: 1%;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    height: auto;
+    place-items: center;
+    grid-area: "shef1" 
+               "shef2" 
+               "shef3";
+  }
+
+
+  .chef_no img {
+    position: relative;
+    width: 80%;
+    height: 60vh;
+    display: block;
+    left: 0;
+
+  }
+
+
+
+
+  .ingredients {
+    grid-template-columns: 100%;
+    grid-template-areas:  "m_ingredients" 
+                          "r_ingredients";
+    height: auto;
+    padding-top: 2%;
+  }
+  .ingredients_left {
+    display: none;
+  }
+  .ingredients_text {
+    display: block;
+    position: relative;
+    top: 2%;
+    width: 100%;
+    text-align: center;
+    left: 0;
+  }
+  .ingredients_container {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 0;
+  }
+  .ingredient_details {
+    position: relative;
+
+  }
+  .ingredients_right {
+    height: auto;
+  }
+  .ingredient_details img {
+    position: relative;
+    width: 70%;
+    height: 40vh;
+  }
+
+
+
 
   /* /Error on logo store times below 750px   */
 }
